@@ -1,0 +1,24 @@
+cloud lab 
+1- how to instal packet tracer
+a- STMP- PORT NO 25( SIMPLE MAIL TRANSFER PROTOCALL)
+B-HTTP-( HYPER TEXT TRANSFER PROTOCOL)= PORT NO -80
+C-HTTPS-(HYPER TEXT TRANSFER PROTOCOL) = PORT NO -443
+D-FTP-( FILE TRANSFER PROTOCOL)=PORT NO -20,21
+E- DHCP-( DYANMIC HOST CONFIGURATION PROTOCOL) = PORT NO - 67,68( SERVER,CLIENT)
+F- DNS-(DOMAIN NAME SYSTEM) = PORT NO =53
+G-TFTP-(TRIVAL FILE TRANSFER PROTOCOL) = PORT NO - 69
+H-ROUTER & SWITCH 
+
+
+2- VIRTUALISATION 
+HOW TO INSTALL AND CONFIGURATION VMS
+
+a-Linux / ubuntu ( virtual)( created a machine ubuntu whose ISO image version is 24.04 )
+b- machine is crated on hypervisor ( virtual box ) to instal and configure  hypervisor 
+
+c- in a machine install google chrome on vms , install docker , basics Linux commands , install apache on vm , and also install apache on docker 
+  
+
+3 - created a  account on AWS 
+a - create a EC2 INSTACE ON AWS ACCOUNT 
+

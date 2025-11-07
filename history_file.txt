@@ -1,0 +1,86 @@
+  2  clear
+    3  ls
+    4  ls -lrth
+    5  cd
+    6  pwd
+    7  cd download
+    8  cd Downloads/
+    9  LS
+   10  ls
+   11  cd ..
+   12  cd Desktop/
+   13  cd .
+   14  cd
+   15  cd Desktop/
+   16  cd ../Downloads/
+   17  mkdir sweta_1
+   18  ls
+   19  rm sweta_1
+   20  rm -f sweta_1
+   21  rm -rf sweta_1
+   22  ls
+   23  touch swe_1
+   24  vi swe_1
+   25  cat swe_1
+   26  top 
+   27  free -h
+   28  sudo apt update 
+   29  sudo apt install     ca-certificates     curl     gnupg     lsb-release
+   30  sudo mkdir -p /etc/apt/keyrings
+   31  curl -fsSL https://download.docker.com/linux/ubuntu/gpg |   sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+   32  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] \
+   33    https://download.docker.com/linux/ubuntu \
+   34    $(lsb_release -cs) stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   35  sudo apt update
+   36  sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   37  docker --version
+   38  sudo docker run hello-world
+   39  docker run -it ubuntu bash
+   40  sudo usermod -aG docker $USER
+   41  newgrp docker
+   42  docker run -it ubuntu bash
+   43  docker ps -a
+   44  sudo systemctl status docker.service 
+   45  ls  --ll
+   46  ls -lrth
+   47  pwd
+   48  cd /
+   49  ls
+   50  cd ..
+   51  cd ~
+   52  touch new.txt
+   53  vi new.txt
+   54  cat new.txt
+   55  touch swetanew.txt
+   56  ls 
+   57  sudo apt install vim
+   58  sudo apt update update
+   59  sudo apt update 
+   60  sudo apt upgrade 
+   61  sudo systemctl status vim
+   62  vim swetanew.txt
+   63  sudo apt install vim
+   64  vim swetanew.txt
+   65  less swetanew.txt 
+   66* 
+   67  man tail
+   68  sudo systemctl status docker.s
+   69  sudo systemctl status docker.service 
+   70  google-chrome
+   71  docker ps -a 
+   72  apt update 
+   73  sudo apt update 
+   74  sudo apt install -y apache2
+   75  sudo lsof -i :80
+   76  sudo apache2ctl configtest
+   77  systemctl status apache2.service
+   78  docker ps -a
+   79  sudo service apache2 start
+   80  docker stop my-apache-container
+   81  sudo service apache2 start
+   82  systemctl status apache2.service
+   83  docker ps -a
+   84  top
+   85  histroy
+   86  history
+

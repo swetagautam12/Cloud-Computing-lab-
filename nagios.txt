@@ -1,0 +1,58 @@
+  104  sudo apt update
+  105  apt list --upgradable 
+  106  sudo apt install w3m
+  107  w3m http://localhost/nagios
+  108  sudo systemctl status apache2
+  109  sudo systemctl status nagios
+  110  which nagios
+  111  sudo apt update
+  112  sudo apt install nagios4
+  113  sudo apt update
+  114  sudo apt upgrade -y
+  115  sudo apt install -y build-essential libgd-dev unzip apache2 php libapache2-mod-php php-gd libssl-dev libperl-dev libcgi-pm-perl
+  116  sudo apt install -y build-essential libgd-dev unzip apache2 php libapache2-mod-php php-gd libssl-dev libperl-dev libcgi-pm-perl
+  117  sudo useradd nagios
+  118  sudo groupadd nagios
+  119  sudo usermod -a -G nagios www-data
+  120  cd /tmp
+  121  wget https://github.com/NagiosEnterprises/nagioscore/releases/download/4.4.8/nagios-4.4.8.tar.gz
+  122  tar -xvzf nagios-4.4.8.tar.gz
+  123  wget https://go.nagios.org/get-core/4-5-9.tar.gz
+  124  tar -xvzf nagios-4.5.9.tar.gz
+  125  ls -l
+  126  tar -xvzf 4-5-9.tar.gz
+  127  file 4-5-9.tar.gz
+  128  rm 4-5-9.tar.gz
+  129  wget https://assets.nagios.com/downloads/nagioscore/releases/nagios-4.5.9.tar.gz
+  130  file nagios-4.5.9.tar.gz
+  131  tar -xvzf nagios-4.5.9.tar.gz
+  132  cd nagios-4.5.9
+  133  ./configure --with-httpd-conf=/etc/apache2/sites-enabled
+  134  make all
+  135  sudo make install
+  136  sudo make install-init
+  137  sudo make install-config
+  138  sudo make install-commandmode
+  139  sudo make install-webconf
+  140  sudo systemctl enable nagios
+  141  sudo systemctl start nagios
+  142  sudo systemctl restart apache2
+  143  curl -u nagiosadmin:<your_password> http://localhost/nagios
+  144  curl -u nagiosadmin:<sweta12345> http://localhost/nagios
+  145  sudo htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
+  146  cat /etc/apache2/sites-enabled/000-default.conf
+  147  sudo systemctl restart apache2
+  148  ip a
+  149  http://127.0.0.1/nagios
+  150  http://localhost/nagios
+  151  sudo systemctl status apache2
+  152  sudo systemctl status nagios
+  153  curl http://127.0.0.1/nagios
+  154  sudo netstat -tuln | grep :80
+  155  sudo htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
+  156  sudo systemctl restart apache2
+  157  http://127.0.0.1/nagios
+  158  sudo ss -tuln | grep :80
+  159  sudo systemctl status nagios
+  160  histroy
+  161  history
